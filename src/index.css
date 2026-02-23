@@ -41,6 +41,14 @@
   .btn-alive {
     @apply px-6 py-2 border-2 border-current font-black uppercase tracking-tighter hover:bg-brand-black hover:text-brand-white dark:hover:bg-brand-white dark:hover:text-brand-black transition-all active:scale-95;
   }
+
+  /* Mobile overlay: force Safari/iOS to use currentColor for text inside the overlay only */
+  .mobile-overlay button,
+  .mobile-overlay .nav-item,
+  .mobile-overlay * {
+    color: inherit;
+    -webkit-text-fill-color: currentColor;
+  }
 }
 
 @layer utilities {
@@ -59,4 +67,9 @@
       transform: translateY(0);
     }
   }
+}
+
+.backdrop-fix {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }

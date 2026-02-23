@@ -25,7 +25,7 @@ const Navbar = ({ onNavigate }) => {
   return (
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${isScrolled
-          ? "py-4 bg-white/80 dark:bg-black/80 backdrop-blur-md border-b-2 border-black dark:border-white"
+          ? "py-4 bg-white/80 dark:bg-black/80 backdrop-fix border-b-2 border-black dark:border-white"
           : "py-8 bg-transparent"
         }`}
     >
@@ -75,7 +75,7 @@ const Navbar = ({ onNavigate }) => {
       {/* Mobile Menu Overlay */}
       <div
         className={`fixed inset-0 bg-white dark:bg-black z-40 flex flex-col items-center justify-center space-y-8 transition-all duration-500 transform ${isMenuOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
-          } md:hidden`}
+          } md:hidden mobile-overlay`}
       >
         <button
           className="absolute top-8 right-8"
