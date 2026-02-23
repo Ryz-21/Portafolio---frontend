@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/api/send-email";
+const API_URL = "https://site--portafolio-backend--yyjmjvs7r7bs.code.run/api/send-email";
 
 export const sendMessage = async (message) => {
     const response = await fetch(API_URL, {
