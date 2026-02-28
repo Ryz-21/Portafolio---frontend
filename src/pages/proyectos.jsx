@@ -36,7 +36,7 @@ export default function Proyectos() {
       id: 2,
       name: "Web ecommerce",
       images: [
-        eco1, eco2, eco3, eco4, eco5, eco6, eco7, eco8, eco9
+        eco3, eco2, eco1, eco4, eco5, eco6, eco7, eco8, eco9
       ]
     }
   ]
