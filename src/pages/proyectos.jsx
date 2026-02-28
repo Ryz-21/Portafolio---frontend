@@ -8,9 +8,9 @@ import gestion4 from "../assets/img/Sistema de Gestion/gestion-4.png"
 import gestion5 from "../assets/img/Sistema de Gestion/gestion-5.png"
 
 // Importar imágenes para Web Ecommerce
+import eco3 from "../assets/img/WEB ECOMMERCE/ecommerce-3.png"
 import eco1 from "../assets/img/WEB ECOMMERCE/ecommerce-1.png"
 import eco2 from "../assets/img/WEB ECOMMERCE/ecommerce-2.png"
-import eco3 from "../assets/img/WEB ECOMMERCE/ecommerce-3.png"
 import eco4 from "../assets/img/WEB ECOMMERCE/ecommerce-4.png"
 import eco5 from "../assets/img/WEB ECOMMERCE/ecommerce-5.png"
 import eco6 from "../assets/img/WEB ECOMMERCE/ecommerce-6.png"
