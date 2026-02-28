@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react"
 
 // Importar imágenes para Sistema de Gestión
-import gestion1 from "../assets/img/Sistema de Gestion/gestion-1.png"
 import gestion2 from "../assets/img/Sistema de Gestion/gestion-2.png"
+import gestion1 from "../assets/img/Sistema de Gestion/gestion-1.png"
 import gestion3 from "../assets/img/Sistema de Gestion/gestion-3.png"
 import gestion4 from "../assets/img/Sistema de Gestion/gestion-4.png"
 import gestion5 from "../assets/img/Sistema de Gestion/gestion-5.png"
